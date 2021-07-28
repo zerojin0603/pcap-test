@@ -7,4 +7,5 @@ pcap-test.o: pcap-test.cpp
    g++ -c -o pcap-test.o pcap-test.cpp
 
 clean:
-   rm -f pcap-test *.o
+   m -f pcap-test 
+   rm -f pcap-test.o
